@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryxi Launcher | Download Minecraft Client</title>
+    <style>
+        /* Modern Gaming Dark Theme */
+        body {
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        /* Subtle glowing background effect */
+        body::before {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(0, 212, 255, 0.15);
+            filter: blur(100px);
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .container {
+            text-align: center;
+            background: #1f2833;
+            padding: 50px 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #66fcf1;
+            font-size: 2.5rem;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            color: #a9a9a9;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        /* The Animated Download Button */
+        .download-btn {
+            background: linear-gradient(135deg, #66fcf1 0%, #45a29e 100%);
+            color: #0b0c10;
+            padding: 16px 36px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            box-shadow: 0 5px 15px rgba(102, 252, 241, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 252, 241, 0.5);
+            background: linear-gradient(135deg, #45a29e 0%, #66fcf1 100%);
+        }
+
+        .download-btn:active {
+            transform: translateY(-1px);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Ryxi Launcher</h1>
+        <p>Experience Minecraft like never before. Boost your FPS and customize your gameplay instantly.</p>
+
+        <!-- PASTE YOUR COPIED GITHUB EXE LINK INSIDE THE HREF BELOW -->
+        <a href="https://github.com/ran-nachshon/ryxi-launcher-files/releases/download/v1.0.0/Ryxi-Launcher-Setup-1.0.0.exe"
+            download>
+            <div class="download-btn">Download Ryxi Launcher</div>
+        </a>
+    </div>
+
+</body>
+
+</html>
